@@ -17,7 +17,7 @@
 /* Fonts */
 html {
   font-size: 18px;
-  font-family: "Mukta", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 h1,
@@ -25,6 +25,7 @@ h2,
 h3 {
   color: var(--color-darker);
   font-weight: 700;
+  font-family: "Noto Serif Display", serif;
 }
 
 h1 {
@@ -276,14 +277,15 @@ footer h3 {
 
 footer a {
   color: var(--color-light);
+  text-decoration: none;
+  opacity: 0.8;
+  line-height: 1.6;
 }
 
 footer section {
   display: flex;
   max-width: 50vw;
   align-items: top;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 footer section div {
